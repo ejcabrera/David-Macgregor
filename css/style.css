@@ -73,7 +73,7 @@ header .row .homeleft button{
 }
 /* section1 */
 .section1{
-  background-image: url('/images/aboutbg1.png');
+  background-image: url(../images/aboutbg1.png);
   background-repeat: no-repeat;
   background-size: auto;
   padding:35vmin 0vmin;
