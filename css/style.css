@@ -7,21 +7,20 @@ header, section{
   overflow-x: hidden;
 }
 :root{
+  --white:white;
+  --dwhite:#f5f1e6;
   --bg:#b48d70;
-  --bggradient:linear-gradient(#b48d70,rgb(240, 198, 177));
   --gray:#8e8d8a;
-  --brown:#d8c3a5;
-  --lbrown:#e1ceb3;
   --peach:#e98074;
   --red:#e85a4f;
   --Oswald:'Oswald', sans-serif;
   --roboto:'Roboto Slab', serif;
 }
 header .navbar{
-background-color: var(--lbrown);
+  background-color: var(--white);
 }
 header{
- background-color: var(--brown);
+  background-color: var(--dwhite);
 }
 header .nav-item:last-child{
   padding-right: 10.5em;
@@ -74,7 +73,9 @@ header .row .homeleft button{
 }
 /* section1 */
 .section1{
-  background-color: var(--lbrown);
+  background-image: url(/images/aboutbg1.png);
+  background-repeat: no-repeat;
+  background-size: auto;
   padding:35vmin 0vmin;
 }
 .section1 img{
@@ -82,8 +83,18 @@ header .row .homeleft button{
   border-radius: 1em;
 }
 .section1 .panel p{
+  color: var(--white);
+  font-size: 15px;
   font-family: var(--roboto);
   text-align: left;
+  background: rgba(58, 58, 58, 0.5333);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(7px);
+  border: 1px solid rgba(255, 255, 255, 0.803);
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .section1 .panel h1{
   color: var(--red);
@@ -91,12 +102,12 @@ header .row .homeleft button{
 }
 /* section2 */
 .section2 .purchase{
-  background-color: var(--brown);
+  background-color: var(--dwhite);
   padding: 10vmin 1vmin;
   padding-bottom: 10vmin;
 }
 .section2 .card-body{
-  background-color: var(--brown);
+  background-color: var(--dwhite);
   border: 1px solid black;
 }
 .section2 .purchase h1{
@@ -112,7 +123,7 @@ header .row .homeleft button{
 }
 /* section3 */
 .section3{
-  background-color: var(--lbrown);
+  background-color: var(--white);
   padding: 10vmin 1vmin;
   padding-bottom: 20vmin;
 }
@@ -131,7 +142,7 @@ header .row .homeleft button{
 
 /* section4 */
 .section4 {
-  background-color: var(--brown);
+  background-color: var(--dwhite);
   padding: 10vmin 1vmin;
   padding-bottom: 10vmin;
 }
@@ -193,7 +204,7 @@ div.gallery {
     clear: both;
   }
   footer{
-    background-color: var(--lbrown);
+    background-color: var(--white);
     padding-bottom: 0;
   }
   footer h1{
